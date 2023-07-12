@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textutils</title>
+    <body style="background-color:powderblue;"></body>
+</head>
+
+<body>
+    <h1>Welcome to the text analyzer
+        <div>enter your text below</div>
+        <form action="/analyse" method='get'>
+            <textarea name="text" id="" cols="30" rows="10"
+                style="width: 1242px; height: 124px;"></textarea><br>
+            
+                <input type="checkbox" name="analyse">Remove punctuations <br>
+                <input type="checkbox" name="capfirst">Capitalise each word<br>
+                <input type="checkbox" name="unique">checks whether a string is unique or not<br>
+            <div><button type='submit'>analyse text</button></div> 
+        </form>
+        
+    </h1>
+    <!--n=abc
+        if n=yes:
+            <h2 > Is the string given unique?   {{analysed_text}}</h2>
+            <h3>String given is:</h3>
+            <textarea style="width: 227px; height: 38px;">{{originaltext}}</textarea>>//-->
+</body>
+
+</html>
